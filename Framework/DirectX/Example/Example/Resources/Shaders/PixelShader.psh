@@ -1,0 +1,14 @@
+// ���÷�
+sampler2D g_pSampler;
+
+/** VS Input */
+struct STInput
+{
+	float2 m_stUV : TEXCOORD0;
+};
+
+/** PS Main */
+float4 PSMain(STInput a_stInput) : COLOR0
+{
+	return tex2D(g_pSampler, a_stInput.m_stUV);
+}

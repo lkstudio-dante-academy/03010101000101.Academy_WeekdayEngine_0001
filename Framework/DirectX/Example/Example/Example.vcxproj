@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{589EF412-1D5A-4D4C-BBC7-051E46054E2E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Example</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <FxCompile>
+      <EntryPointName>VSMain</EntryPointName>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\Example.cpp" />
+    <ClCompile Include="Classes\Example_10\Example_10.cpp" />
+    <ClCompile Include="Classes\Example_11\Example_11.cpp" />
+    <ClCompile Include="Classes\Example_12\Example_12.cpp" />
+    <ClCompile Include="Classes\Example_13\Example_13.cpp" />
+    <ClCompile Include="Classes\Example_14\Example_14.cpp" />
+    <ClCompile Include="Classes\Example_15\Example_15.cpp" />
+    <ClCompile Include="Classes\Example_16\Example_16.cpp" />
+    <ClCompile Include="Classes\Example_17\Example_17.cpp" />
+    <ClCompile Include="Classes\Example_18\Example_18.cpp" />
+    <ClCompile Include="Classes\Example_19\Example_19.cpp" />
+    <ClCompile Include="Classes\Example_1\Example_1.cpp" />
+    <ClCompile Include="Classes\Example_20\Example_20.cpp" />
+    <ClCompile Include="Classes\Example_21\Example_21.cpp" />
+    <ClCompile Include="Classes\Example_22\Example_22.cpp" />
+    <ClCompile Include="Classes\Example_23\Example_23.cpp" />
+    <ClCompile Include="Classes\Example_24\Example_24.cpp" />
+    <ClCompile Include="Classes\Example_25\Example_25.cpp" />
+    <ClCompile Include="Classes\Example_26\Example_26.cpp" />
+    <ClCompile Include="Classes\Example_27\Example_27.cpp" />
+    <ClCompile Include="Classes\Example_28\Example_28.cpp" />
+    <ClCompile Include="Classes\Example_29\Example_29.cpp" />
+    <ClCompile Include="Classes\Example_2\Example_2.cpp" />
+    <ClCompile Include="Classes\Example_30\Example_30.cpp" />
+    <ClCompile Include="Classes\Example_31\Example_31.cpp" />
+    <ClCompile Include="Classes\Example_32\Example_32.cpp" />
+    <ClCompile Include="Classes\Example_33\Example_33.cpp" />
+    <ClCompile Include="Classes\Example_34\Example_34.cpp" />
+    <ClCompile Include="Classes\Example_35\Example_35.cpp" />
+    <ClCompile Include="Classes\Example_36\Example_36.cpp" />
+    <ClCompile Include="Classes\Example_3\Example_3.cpp" />
+    <ClCompile Include="Classes\Example_4\Example_4.cpp" />
+    <ClCompile Include="Classes\Example_5\Example_5.cpp" />
+    <ClCompile Include="Classes\Example_6\Example_6.cpp" />
+    <ClCompile Include="Classes\Example_7\Example_7.cpp" />
+    <ClCompile Include="Classes\Example_8\Example_8.cpp" />
+    <ClCompile Include="Classes\Example_9\Example_9.cpp" />
+    <ClCompile Include="Classes\Global\Function\GlobalFunction.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Animation\CAllocateHierarchy.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Animation\CAnimationController.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Base\CDirect3DApplication.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Base\CObject.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Base\CRenderObject.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Base\CSceneObject.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Base\CUIObject.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Base\CWindowApplication.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Debug\CDebugDraw.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Debug\CGizmo.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Debug\CGrid.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CDeviceManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CInputManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CResourceManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CSceneManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CScheduleManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CSoundManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CTimeManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CUIManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Manager\CWindowManager.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Math\C3DMatrix.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Math\C3DVector.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CCamera.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CLight.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CPointParticleSystem.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CQuadParticleSystem.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CSkinnedMesh.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CSkybox.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CStaticMesh.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Object\CTerrain.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Particle\CParticleEmitter.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Particle\CParticleSystem.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Sound\CSound.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Structure\CArrayList.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Structure\CBinaryTree.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Structure\CHash.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Structure\CLinkedList.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Structure\CPriorityQueue.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Structure\CQueue.cpp" />
+    <ClCompile Include="Classes\Global\Utility\Structure\CStack.cpp" />
+    <ClCompile Include="Classes\Global\Utility\UI\CButton.cpp" />
+    <ClCompile Include="Classes\Global\Utility\UI\CLabel.cpp" />
+    <ClCompile Include="Classes\Global\Utility\UI\CSprite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\Example_10\Example_10.h" />
+    <ClInclude Include="Classes\Example_11\Example_11.h" />
+    <ClInclude Include="Classes\Example_12\Example_12.h" />
+    <ClInclude Include="Classes\Example_13\Example_13.h" />
+    <ClInclude Include="Classes\Example_14\Example_14.h" />
+    <ClInclude Include="Classes\Example_15\Example_15.h" />
+    <ClInclude Include="Classes\Example_16\Example_16.h" />
+    <ClInclude Include="Classes\Example_17\Example_17.h" />
+    <ClInclude Include="Classes\Example_18\Example_18.h" />
+    <ClInclude Include="Classes\Example_19\Example_19.h" />
+    <ClInclude Include="Classes\Example_1\Example_1.h" />
+    <ClInclude Include="Classes\Example_20\Example_20.h" />
+    <ClInclude Include="Classes\Example_21\Example_21.h" />
+    <ClInclude Include="Classes\Example_22\Example_22.h" />
+    <ClInclude Include="Classes\Example_23\Example_23.h" />
+    <ClInclude Include="Classes\Example_24\Example_24.h" />
+    <ClInclude Include="Classes\Example_25\Example_25.h" />
+    <ClInclude Include="Classes\Example_26\Example_26.h" />
+    <ClInclude Include="Classes\Example_27\Example_27.h" />
+    <ClInclude Include="Classes\Example_28\Example_28.h" />
+    <ClInclude Include="Classes\Example_29\Example_29.h" />
+    <ClInclude Include="Classes\Example_2\Example_2.h" />
+    <ClInclude Include="Classes\Example_30\Example_30.h" />
+    <ClInclude Include="Classes\Example_31\Example_31.h" />
+    <ClInclude Include="Classes\Example_32\Example_32.h" />
+    <ClInclude Include="Classes\Example_33\Example_33.h" />
+    <ClInclude Include="Classes\Example_34\Example_34.h" />
+    <ClInclude Include="Classes\Example_35\Example_35.h" />
+    <ClInclude Include="Classes\Example_36\Example_36.h" />
+    <ClInclude Include="Classes\Example_3\Example_3.h" />
+    <ClInclude Include="Classes\Example_4\Example_4.h" />
+    <ClInclude Include="Classes\Example_5\Example_5.h" />
+    <ClInclude Include="Classes\Example_6\Example_6.h" />
+    <ClInclude Include="Classes\Example_7\Example_7.h" />
+    <ClInclude Include="Classes\Example_8\Example_8.h" />
+    <ClInclude Include="Classes\Example_9\Example_9.h" />
+    <ClInclude Include="Classes\Global\Define\KGlobalDefine.h" />
+    <ClInclude Include="Classes\Global\Function\GlobalFunction.h" />
+    <ClInclude Include="Classes\Global\Utility\Animation\CAllocateHierarchy.h" />
+    <ClInclude Include="Classes\Global\Utility\Animation\CAnimationController.h" />
+    <ClInclude Include="Classes\Global\Utility\Base\CDirect3DApplication.h" />
+    <ClInclude Include="Classes\Global\Utility\Base\CObject.h" />
+    <ClInclude Include="Classes\Global\Utility\Base\CRenderObject.h" />
+    <ClInclude Include="Classes\Global\Utility\Base\CSceneObject.h" />
+    <ClInclude Include="Classes\Global\Utility\Base\CUIObject.h" />
+    <ClInclude Include="Classes\Global\Utility\Base\CWindowApplication.h" />
+    <ClInclude Include="Classes\Global\Utility\Debug\CDebugDraw.h" />
+    <ClInclude Include="Classes\Global\Utility\Debug\CGizmo.h" />
+    <ClInclude Include="Classes\Global\Utility\Debug\CGrid.h" />
+    <ClInclude Include="Classes\Global\Utility\Interface\IRenderable.h" />
+    <ClInclude Include="Classes\Global\Utility\Interface\IUpdateable.h" />
+    <ClInclude Include="Classes\Global\Utility\Interface\IWindowMessageHandler.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CDeviceManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CInputManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CResourceManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CSceneManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CScheduleManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CSoundManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CTimeManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CUIManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Manager\CWindowManager.h" />
+    <ClInclude Include="Classes\Global\Utility\Math\C3DMatrix.h" />
+    <ClInclude Include="Classes\Global\Utility\Math\C3DVector.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CCamera.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CLight.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CPointParticleSystem.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CQuadParticleSystem.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CSkinnedMesh.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CSkybox.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CStaticMesh.h" />
+    <ClInclude Include="Classes\Global\Utility\Object\CTerrain.h" />
+    <ClInclude Include="Classes\Global\Utility\Particle\CParticleEmitter.h" />
+    <ClInclude Include="Classes\Global\Utility\Particle\CParticleSystem.h" />
+    <ClInclude Include="Classes\Global\Utility\Sound\CSound.h" />
+    <ClInclude Include="Classes\Global\Utility\Structure\CArrayList.h" />
+    <ClInclude Include="Classes\Global\Utility\Structure\CBinaryTree.h" />
+    <ClInclude Include="Classes\Global\Utility\Structure\CHash.h" />
+    <ClInclude Include="Classes\Global\Utility\Structure\CLinkedList.h" />
+    <ClInclude Include="Classes\Global\Utility\Structure\CPriorityQueue.h" />
+    <ClInclude Include="Classes\Global\Utility\Structure\CQueue.h" />
+    <ClInclude Include="Classes\Global\Utility\Structure\CStack.h" />
+    <ClInclude Include="Classes\Global\Utility\UI\CButton.h" />
+    <ClInclude Include="Classes\Global\Utility\UI\CLabel.h" />
+    <ClInclude Include="Classes\Global\Utility\UI\CSprite.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Meshes\Elementalist\Body_D.tga" />
+    <Image Include="Resources\Meshes\Elementalist\Body_N.tga" />
+    <Image Include="Resources\Meshes\Elementalist\Face_D.tga" />
+    <Image Include="Resources\Meshes\Elementalist\Face_N.tga" />
+    <Image Include="Resources\Meshes\Elementalist\Hair_D.tga" />
+    <Image Include="Resources\Meshes\Elementalist\Hair_N.tga" />
+    <Image Include="Resources\Meshes\GunShip\GunShip.tga" />
+    <Image Include="Resources\Meshes\GunShip\GunshipGlass.tga" />
+    <Image Include="Resources\Meshes\GunShip\GunshipGlass_N.tga" />
+    <Image Include="Resources\Meshes\GunShip\GunShip_E.tga" />
+    <Image Include="Resources\Meshes\GunShip\GunShip_N.tga" />
+    <Image Include="Resources\Meshes\WitchApprentice\WitchApprentice_diff.bmp" />
+    <Image Include="Resources\Meshes\WitchApprentice\WitchApprentice_w_diff.bmp" />
+    <Image Include="Resources\Textures\CubeMap.dds" />
+    <Image Include="Resources\Textures\HeightMap.bmp" />
+    <Image Include="Resources\Textures\HelloWorld.png" />
+    <Image Include="Resources\Textures\NormalMap.jpg" />
+    <Image Include="Resources\Textures\NormalMap.tga" />
+    <Image Include="Resources\Textures\SplatMap.jpg" />
+    <Image Include="Resources\Textures\Stone.bmp" />
+    <Image Include="Resources\Textures\Terrain_01.jpg" />
+    <Image Include="Resources\Textures\Terrain_02.jpg" />
+    <Image Include="Resources\Textures\Terrain_03.jpg" />
+    <Image Include="Resources\Textures\Terrain_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Classes\Global\Function\GlobalFunction.inl" />
+    <None Include="Resources\Meshes\Elementalist\Elementalist.x" />
+    <None Include="Resources\Meshes\GunShip\GunShip.x" />
+    <None Include="Resources\Meshes\WitchApprentice\WitchApprentice.x" />
+    <None Include="Resources\Shaders\PixelShader.psh" />
+    <None Include="Resources\Shaders\VertexShader.vsh" />
+    <None Include="Resources\Textures\HeightMap.raw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Sounds\Background.wav" />
+    <Media Include="Resources\Sounds\Effect1.wav" />
+    <Media Include="Resources\Sounds\Effect2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Effects\Example_19.fx" />
+    <FxCompile Include="Resources\Effects\Example_20.fx" />
+    <FxCompile Include="Resources\Effects\Example_21.fx" />
+    <FxCompile Include="Resources\Effects\Example_22.fx" />
+    <FxCompile Include="Resources\Effects\Example_23.fx" />
+    <FxCompile Include="Resources\Effects\Example_24.fx" />
+    <FxCompile Include="Resources\Effects\Example_25.fx" />
+    <FxCompile Include="Resources\Effects\Example_26.fx" />
+    <FxCompile Include="Resources\Effects\Example_27.fx" />
+    <FxCompile Include="Resources\Effects\Example_28.fx" />
+    <FxCompile Include="Resources\Effects\Example_29.fx" />
+    <FxCompile Include="Resources\Effects\Example_35.fx" />
+    <FxCompile Include="Resources\Effects\Example_37.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

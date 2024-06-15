@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{cbe1954f-7e6d-45a4-9d89-9a2157c28309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global">
+      <UniqueIdentifier>{4a718d38-7105-4d87-86a6-5578545160ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Define">
+      <UniqueIdentifier>{13a9da65-bfeb-4735-aa62-3f43e98e4a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility">
+      <UniqueIdentifier>{21eceb12-fb83-448c-b24b-161f72422c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Base">
+      <UniqueIdentifier>{5bf3885d-9692-45dc-9720-ff8c87cfd5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Manager">
+      <UniqueIdentifier>{616d6abc-d92b-41de-b0ba-fbf00dd6519f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Function">
+      <UniqueIdentifier>{85dbe282-36dd-4f61-95c2-ad34bde8141c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Object">
+      <UniqueIdentifier>{d1cbd8a9-0fd1-402b-91b1-5be222c75f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Interface">
+      <UniqueIdentifier>{ea9bd96f-4478-4ecc-ab26-da9775f503e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Animation">
+      <UniqueIdentifier>{1b452867-0fb1-460a-88a6-031823d5e45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\UI">
+      <UniqueIdentifier>{bf34df25-c4a5-428c-a00b-012db899f120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Debug">
+      <UniqueIdentifier>{9462127f-923c-49a5-a42e-8e95b99aaa55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Structure">
+      <UniqueIdentifier>{1637880e-e2a2-4b5a-838e-10481428f947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Math">
+      <UniqueIdentifier>{b21ddde1-9d50-4c84-b784-7b927c9e5a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_10 %28삼각형, 정점 버퍼%29">
+      <UniqueIdentifier>{83b0457b-8cf8-4291-b59e-f267ba3d62c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_11 %28사각형, 인덱스 버퍼%29">
+      <UniqueIdentifier>{def6a917-262f-47e4-8e6e-d6455a526947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_14 %28계층 구조%29">
+      <UniqueIdentifier>{a93112c6-40d9-4821-a20f-8569675809f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_12 %28이동, 척도 변환%29">
+      <UniqueIdentifier>{4edfc91e-9348-4f2d-9f41-07cf05a77d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_13 %28오일러, 사원수 회전 변환%29">
+      <UniqueIdentifier>{8f277c05-acc8-4f55-8952-48a8703d8b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_16 %28텍스처%29">
+      <UniqueIdentifier>{6dac540a-c097-40e8-b1ed-2eee1a322689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_23 %28메시%29">
+      <UniqueIdentifier>{8210d4ef-09f6-4435-957b-64db843aa236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_24 %28정적 메시%29">
+      <UniqueIdentifier>{9edec067-65a6-4285-b628-effc401fd7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_25 %28노말 매핑%29">
+      <UniqueIdentifier>{1e2f97a9-bcd6-4487-9eb3-36add688f9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Sound">
+      <UniqueIdentifier>{86ffa3e9-9fc6-465a-bb34-0edb248f0507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_27 %28스카이 박스%29">
+      <UniqueIdentifier>{9a85f111-31ab-42c2-9a16-1b232f428889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_28 %28지형%29">
+      <UniqueIdentifier>{138e8762-6aa8-46e2-ae03-c019c33d0473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_29 %28캐릭터 애니메이션%29">
+      <UniqueIdentifier>{47e62da4-3915-4ef3-bedb-0ba6fd5be3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_30 %28바운딩 스피어, 피킹%29">
+      <UniqueIdentifier>{c3cec0fe-b6c6-4ee0-bcb0-7f3d7bdda814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_31 %28바운딩 박스, 충돌 처리%29">
+      <UniqueIdentifier>{42a664e6-f2cd-4994-9f70-c8d278b2c7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_32 %28포인트 파티클 이펙트%29">
+      <UniqueIdentifier>{164e6338-0203-476f-ad74-905026a5efe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_33 %28쿼드 파티클 이펙트%29">
+      <UniqueIdentifier>{97defe02-4d98-4c67-be67-da0c9e284f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_35 %28그림자 매핑%29">
+      <UniqueIdentifier>{24b2af2a-8baf-4384-83c0-65ba8c52cf97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_34 %28원형, 투영 그림자%29">
+      <UniqueIdentifier>{0afc1a57-6a95-4a6f-b4d9-42ceb4c2c49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_18 %28정점, 픽셀 쉐이더%29">
+      <UniqueIdentifier>{37787f47-cefb-43fc-bdb5-e1cfc13dcdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_19 %28이펙트 프레임워크%29">
+      <UniqueIdentifier>{458b256d-3e95-4b4a-92a6-9bff58dcd88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_26 %28환경 매핑%29">
+      <UniqueIdentifier>{3fbbf41c-db7d-4ce3-b421-7409922a1bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_22 %28빌보드, 알파 블렌드%29">
+      <UniqueIdentifier>{7b2bc135-ee1d-49b4-9027-af98161bc03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Utility\Particle">
+      <UniqueIdentifier>{3f5934c4-e352-45aa-a551-45ba19a5ec39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_17 %28폰트, 버튼, 스프라이트%29">
+      <UniqueIdentifier>{ed74413f-4f47-4bd4-bc68-db1b0f89d456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_36 %28사운드%29">
+      <UniqueIdentifier>{65658977-e29e-4551-8b3d-a661b39feb31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_21 %28툰 쉐이딩, UV 애니메이션%29">
+      <UniqueIdentifier>{35ca9c3c-6b06-4b4c-8a5e-09d8afbb551f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_15 %28광원, 재질%29">
+      <UniqueIdentifier>{71d28449-4c63-4004-a099-3019285df3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_20 %28그레이 스케일, 세피아, 텍스처 타일링%29">
+      <UniqueIdentifier>{269877ad-1bfb-45b5-8b47-cdb1fcc413c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_01 %28리스트%29">
+      <UniqueIdentifier>{22abb10b-8010-4e59-bc1d-21d586a642d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_02 %28스택, 큐%29">
+      <UniqueIdentifier>{42dee617-f6e0-49a4-8871-97673f21b443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_03 %28이진 트리%29">
+      <UniqueIdentifier>{ea75a959-d0ba-4fe3-bed5-b4b819465498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_04 %28우선 순위 큐%29">
+      <UniqueIdentifier>{cf0050c1-5c47-4c01-8a27-f77f47c6cb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_05 %28해시%29">
+      <UniqueIdentifier>{b26d30f7-ddb4-4be0-ac74-fba8d4a78315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_06 %28벡터%29">
+      <UniqueIdentifier>{2f03b67b-5e4b-49c5-a0ae-10a3f2483ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_07 %28행렬%29">
+      <UniqueIdentifier>{7f8fd7c6-2c4c-4c3d-84ed-ddc97ed1d188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_08 %28렌더링 파이프라인%29">
+      <UniqueIdentifier>{79cbbe49-2757-482c-ae56-db4c839875be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example_09 %28초기화%29">
+      <UniqueIdentifier>{bf5ba517-1d16-4eba-9d4f-a36f747beee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{6e8a87eb-068c-492f-ba57-4c1f11cc163b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{c4d17b93-5467-4f48-92b9-b0e57189ea50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Meshes">
+      <UniqueIdentifier>{45ed43e4-b410-48bd-a389-1f6f1c40ae6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Meshes\WitchApprentice">
+      <UniqueIdentifier>{786f92c9-8274-42ef-8bb7-76e96eecfa77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Meshes\GunShip">
+      <UniqueIdentifier>{59f1547b-04b3-417e-b3fd-cad168c74909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Meshes\Elementalist">
+      <UniqueIdentifier>{72720a7b-f5fd-4c26-af59-0f0eb25f026d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Sounds">
+      <UniqueIdentifier>{3a20738e-1b3c-412a-9ff9-c43d978bfef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Effects">
+      <UniqueIdentifier>{6e0c86d2-8292-4843-86f9-5cd0a8cc9226}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\Global\Utility\Manager\CTimeManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CInputManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Function\GlobalFunction.cpp">
+      <Filter>Classes\Global\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CWindowManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CDeviceManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Base\CObject.cpp">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CLight.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CCamera.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Animation\CAllocateHierarchy.cpp">
+      <Filter>Classes\Global\Utility\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\UI\CLabel.cpp">
+      <Filter>Classes\Global\Utility\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Animation\CAnimationController.cpp">
+      <Filter>Classes\Global\Utility\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CTerrain.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CResourceManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\UI\CSprite.cpp">
+      <Filter>Classes\Global\Utility\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CStaticMesh.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Base\CRenderObject.cpp">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_1\Example_1.cpp">
+      <Filter>Classes\Example_01 %28리스트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_2\Example_2.cpp">
+      <Filter>Classes\Example_02 %28스택, 큐%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_3\Example_3.cpp">
+      <Filter>Classes\Example_03 %28이진 트리%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Debug\CGrid.cpp">
+      <Filter>Classes\Global\Utility\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Debug\CGizmo.cpp">
+      <Filter>Classes\Global\Utility\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_4\Example_4.cpp">
+      <Filter>Classes\Example_04 %28우선 순위 큐%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Structure\CBinaryTree.cpp">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Structure\CLinkedList.cpp">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Structure\CQueue.cpp">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Structure\CStack.cpp">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Structure\CArrayList.cpp">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Structure\CPriorityQueue.cpp">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_5\Example_5.cpp">
+      <Filter>Classes\Example_05 %28해시%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Structure\CHash.cpp">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_8\Example_8.cpp">
+      <Filter>Classes\Example_08 %28렌더링 파이프라인%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_9\Example_9.cpp">
+      <Filter>Classes\Example_09 %28초기화%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Math\C3DVector.cpp">
+      <Filter>Classes\Global\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Base\CWindowApplication.cpp">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Base\CDirect3DApplication.cpp">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_10\Example_10.cpp">
+      <Filter>Classes\Example_10 %28삼각형, 정점 버퍼%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\UI\CButton.cpp">
+      <Filter>Classes\Global\Utility\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_6\Example_6.cpp">
+      <Filter>Classes\Example_06 %28벡터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Math\C3DMatrix.cpp">
+      <Filter>Classes\Global\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_11\Example_11.cpp">
+      <Filter>Classes\Example_11 %28사각형, 인덱스 버퍼%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_7\Example_7.cpp">
+      <Filter>Classes\Example_07 %28행렬%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_12\Example_12.cpp">
+      <Filter>Classes\Example_12 %28이동, 척도 변환%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CSoundManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Sound\CSound.cpp">
+      <Filter>Classes\Global\Utility\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_13\Example_13.cpp">
+      <Filter>Classes\Example_13 %28오일러, 사원수 회전 변환%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_14\Example_14.cpp">
+      <Filter>Classes\Example_14 %28계층 구조%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_24\Example_24.cpp">
+      <Filter>Classes\Example_24 %28정적 메시%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_29\Example_29.cpp">
+      <Filter>Classes\Example_29 %28캐릭터 애니메이션%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_23\Example_23.cpp">
+      <Filter>Classes\Example_23 %28메시%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_15\Example_15.cpp">
+      <Filter>Classes\Example_15 %28광원, 재질%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_16\Example_16.cpp">
+      <Filter>Classes\Example_16 %28텍스처%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_17\Example_17.cpp">
+      <Filter>Classes\Example_17 %28폰트, 버튼, 스프라이트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_18\Example_18.cpp">
+      <Filter>Classes\Example_18 %28정점, 픽셀 쉐이더%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_19\Example_19.cpp">
+      <Filter>Classes\Example_19 %28이펙트 프레임워크%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CSkybox.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_20\Example_20.cpp">
+      <Filter>Classes\Example_20 %28그레이 스케일, 세피아, 텍스처 타일링%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_21\Example_21.cpp">
+      <Filter>Classes\Example_21 %28툰 쉐이딩, UV 애니메이션%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_22\Example_22.cpp">
+      <Filter>Classes\Example_22 %28빌보드, 알파 블렌드%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_25\Example_25.cpp">
+      <Filter>Classes\Example_25 %28노말 매핑%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_26\Example_26.cpp">
+      <Filter>Classes\Example_26 %28환경 매핑%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_27\Example_27.cpp">
+      <Filter>Classes\Example_27 %28스카이 박스%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_28\Example_28.cpp">
+      <Filter>Classes\Example_28 %28지형%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Particle\CParticleEmitter.cpp">
+      <Filter>Classes\Global\Utility\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Particle\CParticleSystem.cpp">
+      <Filter>Classes\Global\Utility\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CPointParticleSystem.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_32\Example_32.cpp">
+      <Filter>Classes\Example_32 %28포인트 파티클 이펙트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CQuadParticleSystem.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_33\Example_33.cpp">
+      <Filter>Classes\Example_33 %28쿼드 파티클 이펙트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_30\Example_30.cpp">
+      <Filter>Classes\Example_30 %28바운딩 스피어, 피킹%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Debug\CDebugDraw.cpp">
+      <Filter>Classes\Global\Utility\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_31\Example_31.cpp">
+      <Filter>Classes\Example_31 %28바운딩 박스, 충돌 처리%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Base\CUIObject.cpp">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CUIManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_34\Example_34.cpp">
+      <Filter>Classes\Example_34 %28원형, 투영 그림자%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_35\Example_35.cpp">
+      <Filter>Classes\Example_35 %28그림자 매핑%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example_36\Example_36.cpp">
+      <Filter>Classes\Example_36 %28사운드%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Object\CSkinnedMesh.cpp">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CScheduleManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Manager\CSceneManager.cpp">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Global\Utility\Base\CSceneObject.cpp">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\Global\Define\KGlobalDefine.h">
+      <Filter>Classes\Global\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CTimeManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CInputManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Function\GlobalFunction.h">
+      <Filter>Classes\Global\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CDeviceManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CWindowManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Base\CObject.h">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Interface\IRenderable.h">
+      <Filter>Classes\Global\Utility\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Interface\IUpdateable.h">
+      <Filter>Classes\Global\Utility\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Interface\IWindowMessageHandler.h">
+      <Filter>Classes\Global\Utility\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CLight.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CCamera.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Animation\CAllocateHierarchy.h">
+      <Filter>Classes\Global\Utility\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\UI\CLabel.h">
+      <Filter>Classes\Global\Utility\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Animation\CAnimationController.h">
+      <Filter>Classes\Global\Utility\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CTerrain.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CResourceManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\UI\CSprite.h">
+      <Filter>Classes\Global\Utility\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CStaticMesh.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Base\CRenderObject.h">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_1\Example_1.h">
+      <Filter>Classes\Example_01 %28리스트%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_2\Example_2.h">
+      <Filter>Classes\Example_02 %28스택, 큐%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_3\Example_3.h">
+      <Filter>Classes\Example_03 %28이진 트리%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Debug\CGrid.h">
+      <Filter>Classes\Global\Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Debug\CGizmo.h">
+      <Filter>Classes\Global\Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_4\Example_4.h">
+      <Filter>Classes\Example_04 %28우선 순위 큐%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Structure\CBinaryTree.h">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Structure\CLinkedList.h">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Structure\CQueue.h">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Structure\CStack.h">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Structure\CArrayList.h">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Structure\CPriorityQueue.h">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_5\Example_5.h">
+      <Filter>Classes\Example_05 %28해시%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Structure\CHash.h">
+      <Filter>Classes\Global\Utility\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_8\Example_8.h">
+      <Filter>Classes\Example_08 %28렌더링 파이프라인%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_9\Example_9.h">
+      <Filter>Classes\Example_09 %28초기화%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Math\C3DVector.h">
+      <Filter>Classes\Global\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Base\CWindowApplication.h">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Base\CDirect3DApplication.h">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_10\Example_10.h">
+      <Filter>Classes\Example_10 %28삼각형, 정점 버퍼%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\UI\CButton.h">
+      <Filter>Classes\Global\Utility\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_6\Example_6.h">
+      <Filter>Classes\Example_06 %28벡터%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Math\C3DMatrix.h">
+      <Filter>Classes\Global\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_11\Example_11.h">
+      <Filter>Classes\Example_11 %28사각형, 인덱스 버퍼%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_7\Example_7.h">
+      <Filter>Classes\Example_07 %28행렬%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_12\Example_12.h">
+      <Filter>Classes\Example_12 %28이동, 척도 변환%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CSoundManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Sound\CSound.h">
+      <Filter>Classes\Global\Utility\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_13\Example_13.h">
+      <Filter>Classes\Example_13 %28오일러, 사원수 회전 변환%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_14\Example_14.h">
+      <Filter>Classes\Example_14 %28계층 구조%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_24\Example_24.h">
+      <Filter>Classes\Example_24 %28정적 메시%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_29\Example_29.h">
+      <Filter>Classes\Example_29 %28캐릭터 애니메이션%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_23\Example_23.h">
+      <Filter>Classes\Example_23 %28메시%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_15\Example_15.h">
+      <Filter>Classes\Example_15 %28광원, 재질%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_16\Example_16.h">
+      <Filter>Classes\Example_16 %28텍스처%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_17\Example_17.h">
+      <Filter>Classes\Example_17 %28폰트, 버튼, 스프라이트%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_18\Example_18.h">
+      <Filter>Classes\Example_18 %28정점, 픽셀 쉐이더%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_19\Example_19.h">
+      <Filter>Classes\Example_19 %28이펙트 프레임워크%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CSkybox.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_20\Example_20.h">
+      <Filter>Classes\Example_20 %28그레이 스케일, 세피아, 텍스처 타일링%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_21\Example_21.h">
+      <Filter>Classes\Example_21 %28툰 쉐이딩, UV 애니메이션%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_22\Example_22.h">
+      <Filter>Classes\Example_22 %28빌보드, 알파 블렌드%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_25\Example_25.h">
+      <Filter>Classes\Example_25 %28노말 매핑%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_26\Example_26.h">
+      <Filter>Classes\Example_26 %28환경 매핑%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_27\Example_27.h">
+      <Filter>Classes\Example_27 %28스카이 박스%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_28\Example_28.h">
+      <Filter>Classes\Example_28 %28지형%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_30\Example_30.h">
+      <Filter>Classes\Example_30 %28바운딩 스피어, 피킹%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Particle\CParticleEmitter.h">
+      <Filter>Classes\Global\Utility\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Particle\CParticleSystem.h">
+      <Filter>Classes\Global\Utility\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_32\Example_32.h">
+      <Filter>Classes\Example_32 %28포인트 파티클 이펙트%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CPointParticleSystem.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CQuadParticleSystem.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_33\Example_33.h">
+      <Filter>Classes\Example_33 %28쿼드 파티클 이펙트%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Debug\CDebugDraw.h">
+      <Filter>Classes\Global\Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_31\Example_31.h">
+      <Filter>Classes\Example_31 %28바운딩 박스, 충돌 처리%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Base\CUIObject.h">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CUIManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_34\Example_34.h">
+      <Filter>Classes\Example_34 %28원형, 투영 그림자%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_35\Example_35.h">
+      <Filter>Classes\Example_35 %28그림자 매핑%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example_36\Example_36.h">
+      <Filter>Classes\Example_36 %28사운드%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Object\CSkinnedMesh.h">
+      <Filter>Classes\Global\Utility\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CScheduleManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Manager\CSceneManager.h">
+      <Filter>Classes\Global\Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Utility\Base\CSceneObject.h">
+      <Filter>Classes\Global\Utility\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Meshes\WitchApprentice\WitchApprentice_diff.bmp">
+      <Filter>Resources\Meshes\WitchApprentice</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\WitchApprentice\WitchApprentice_w_diff.bmp">
+      <Filter>Resources\Meshes\WitchApprentice</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\GunShip\GunShip.tga">
+      <Filter>Resources\Meshes\GunShip</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\GunShip\GunShip_E.tga">
+      <Filter>Resources\Meshes\GunShip</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\GunShip\GunShip_N.tga">
+      <Filter>Resources\Meshes\GunShip</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\GunShip\GunshipGlass.tga">
+      <Filter>Resources\Meshes\GunShip</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\GunShip\GunshipGlass_N.tga">
+      <Filter>Resources\Meshes\GunShip</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\Elementalist\Body_N.tga">
+      <Filter>Resources\Meshes\Elementalist</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\Elementalist\Face_D.tga">
+      <Filter>Resources\Meshes\Elementalist</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\Elementalist\Face_N.tga">
+      <Filter>Resources\Meshes\Elementalist</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\Elementalist\Hair_D.tga">
+      <Filter>Resources\Meshes\Elementalist</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\Elementalist\Hair_N.tga">
+      <Filter>Resources\Meshes\Elementalist</Filter>
+    </Image>
+    <Image Include="Resources\Meshes\Elementalist\Body_D.tga">
+      <Filter>Resources\Meshes\Elementalist</Filter>
+    </Image>
+    <Image Include="Resources\Textures\CubeMap.dds">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\HeightMap.bmp">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\HelloWorld.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\NormalMap.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Terrain_01.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Terrain_02.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Terrain_03.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Terrain_04.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\SplatMap.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Stone.bmp">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\NormalMap.tga">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meshes\WitchApprentice\WitchApprentice.x">
+      <Filter>Resources\Meshes\WitchApprentice</Filter>
+    </None>
+    <None Include="Resources\Meshes\GunShip\GunShip.x">
+      <Filter>Resources\Meshes\GunShip</Filter>
+    </None>
+    <None Include="Resources\Meshes\Elementalist\Elementalist.x">
+      <Filter>Resources\Meshes\Elementalist</Filter>
+    </None>
+    <None Include="Classes\Global\Function\GlobalFunction.inl">
+      <Filter>Classes\Global\Function</Filter>
+    </None>
+    <None Include="Resources\Shaders\PixelShader.psh">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\VertexShader.vsh">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="Resources\Textures\HeightMap.raw">
+      <Filter>Resources\Textures</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Sounds\Background.wav">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\Effect1.wav">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\Effect2.wav">
+      <Filter>Resources\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Effects\Example_19.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_20.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_21.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_22.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_23.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_25.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_26.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_27.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_28.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_29.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_24.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_35.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Effects\Example_37.fx">
+      <Filter>Resources\Effects</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
